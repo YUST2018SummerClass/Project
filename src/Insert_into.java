@@ -167,7 +167,7 @@ public class Insert_into {
 		}
 		for(int i=0;i<a.length;i++){
 			System.out.println(a[i]);
-			stmt.executeUpdate("insert into b(id)values("+a[i]+");");
+			stmt.executeUpdate("insert into a(id)values("+a[i]+");");
 		}
         System.out.println("插入到数据库成功");
         connect.close();
